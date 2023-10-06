@@ -11,15 +11,16 @@
   height: 300px;
 
   /* 1. Add a display flex property so the items are layed out in a row */
-
+display: flex;
   /* 2. Add a justify-content property so that the red box is on the right side */
-
+justify-content: space-between;
   /* 3. Use the align-items property to move both boxes to the top (start) */
+  align-items: start;
 }
 
 .item:last-child {
   /* 3. Use the align-self property to move the red box to the bottom (end) */
-
+align-self: end;
   /* 4. Check out other align-self properties on the red box to see what happens
 
     center
